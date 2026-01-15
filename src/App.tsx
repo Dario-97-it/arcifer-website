@@ -6,6 +6,7 @@ import ChiSiamo from "@/pages/ChiSiamo";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import CookieBanner from "./components/CookieBanner";
 
 /**
  * App Component - Main Router and Layout
@@ -31,6 +32,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <CookieBanner />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
