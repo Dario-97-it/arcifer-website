@@ -2,6 +2,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
 import ReviewCard from "@/components/ReviewCard";
+import OpeningHours from "@/components/OpeningHours";
+import GallerySection from "@/components/GallerySection";
 import {
   Wrench,
   Droplet,
@@ -268,6 +270,12 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Gallery Section */}
+        <GallerySection />
+
+        {/* Opening Hours Section */}
+        <OpeningHours />
 
         {/* CTA Section */}
         <section className="py-20 md:py-28 bg-gradient-to-r from-[#E63946] to-[#E91E63] text-white">

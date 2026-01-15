@@ -15,9 +15,11 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-[#E63946] rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">A</span>
-          </div>
+          <img
+            src="/images/logo-arcifer.png"
+            alt="Arcifer Logo"
+            className="w-10 h-10 object-contain"
+          />
           <span className="font-bold text-xl hidden sm:inline text-slate-900">
             Arcifer
           </span>
